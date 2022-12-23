@@ -1,0 +1,452 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: "Raleway", sans-serif;
+}
+
+.imag1 {
+	width: 260px;
+	height: 470px;
+}
+
+body {
+	font-family: "roboto", sans-serif;
+	margin: 0;
+	color: black;
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+
+	/* header*/
+}
+header {
+	display: flex;
+	justify-content: space-between;
+
+	max-width: 1440px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bookilogo {
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+.bookilogo img {
+	width: 85px;
+}
+
+.titresection1 {
+	font-size: 20px;
+}
+
+nav,
+.ul_1 {
+	display: flex;
+	list-style: none;
+}
+
+.navhebergement:hover {
+	border-top: 4px solid#0065fc;
+}
+
+.navhebergement {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	width: 160px;
+	height: 60px;
+	border-top: 4px solid white;
+	color: black;
+	text-align: center;
+}
+
+nav ul {
+	display: flex;
+	justify-content: stretch;
+}
+
+/* main*/
+
+.main {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+#masectionune {
+	padding: 20px;
+}
+
+.body {
+	margin: 20px;
+}
+
+.star-active {
+	color: #0065fc;
+	display: inline-block;
+	font-size: 8px;
+}
+
+.star-non-active {
+	color: #f2f2f2;
+	font-size: 8px;
+}
+.premier-p {
+	font-size: 100%;
+	font-family: "Raleway", sans-serif;
+}
+
+.recherche {
+	background-color: #0065fc;
+	color: antiquewhite;
+}
+
+.filtre {
+	display: flex;
+	align-items: baseline;
+	padding-left: 10px;
+}
+
+.filtre1 {
+	display: flex;
+	align-items: baseline;
+	justify-content: flex-start;
+}
+
+.test :hover {
+	color: #f2f2f2;
+}
+
+.fa-money-bill-wave,
+.fa-child-reaching,
+.fa-heart,
+.fa-dog {
+	color: #0065fc;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #deebff;
+	background-color: #deebff;
+	border-image: initial;
+	border-radius: 50px;
+}
+
+.familial,
+.animaux,
+.economique,
+.romantique {
+	font-weight: bold;
+	border-width: 20px;
+	border: 3px #f2f2f2 solid;
+	border-radius: 0 15px 15px 0;
+	padding: 7px;
+	padding-right: 21px;
+	padding-left: 23px;
+	margin-left: -10px;
+	margin-right: 5px;
+	border-left: none;
+	color: black;
+}
+
+.filtre .test {
+	font-size: 13px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	list-style-type: none;
+	color: black;
+}
+
+/*recherche*/
+
+.rechercheform {
+	display: flex;
+	align-items: center;
+	max-width: 330px;
+	font-size: 18px;
+	border-radius: 14px;
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	margin-block: 15px;
+	height: 49px;
+}
+
+.recherchelabel {
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 15px;
+	border: none;
+	border-radius: 14px 0 0 14px;
+}
+
+.rechercheinput {
+	max-width: 250px;
+	width: 100%;
+	font-weight: bold;
+	padding: 0 12px;
+	outline: none;
+	border: none;
+}
+
+.recherchebouton {
+	background: #0065fc;
+	color: white;
+	font-weight: 700;
+	height: 49px;
+	padding: 16px;
+	border: none;
+	border-radius: 0 14px 14px 0;
+	font-size: 16px;
+}
+
+.recherchebouton i {
+	display: none;
+}
+/*filtres*/
+
+h3 {
+	font-size: 15px;
+}
+
+.ledebut {
+	font-size: 14px;
+}
+
+.info {
+	color: #0065fc;
+	border: 2px solid #c6caf3;
+	margin-right: 8px;
+	border-radius: 50px;
+	font-size: 10px;
+	padding: 2px 5px;
+}
+
+.filtre1 .test {
+	margin: 5px;
+	margin-left: 3px;
+}
+
+/*hebergement*/
+
+.le-titre-hebergement {
+	padding: 15px 0;
+	font-size: 22px;
+	margin-left: 25px;
+}
+.hebergement {
+	display: flex;
+	background: #f2f2f2;
+	border-radius: 25px;
+	flex-wrap: wrap;
+	padding: 10px;
+	width: 70%;
+}
+
+.imghebergement {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	max-height: 120px;
+	border-radius: 25px 25px 0 0;
+	border: 5px white solid;
+	border-bottom: none;
+	box-shadow: 0px 10px 15px #e3e1e1;
+}
+.text-for-hebergement {
+	background-color: white;
+	border-radius: 0 0 25px 25px;
+	border: 5px white solid;
+	margin-top: -5px;
+	font-size: 13px;
+	padding: 10px;
+	box-shadow: 0px 10px 15px #e3e1e1;
+	line-height: 20px;
+}
+.text-small {
+	font-weight: bold;
+	color: black;
+	font-size: 13px;
+	padding: 5px;
+}
+.monp {
+	color: black;
+}
+.meshebegements {
+	display: flex;
+	flex-flow: column;
+	flex-basis: 30%;
+	flex-grow: 1;
+	min-width: 190px;
+	max-width: 250px;
+}
+
+.les-cartes-hebergements {
+	display: flex;
+	flex-wrap: wrap;
+
+	padding-top: 5px;
+	gap: 25px;
+	justify-content: center;
+}
+
+.meshebegements:hover {
+	transform: scale(0.9);
+}
+
+.afficher-plus {
+	padding: 15px;
+	color: black;
+	font-weight: 700;
+}
+/*lespluspopulaires*/
+.div-populaire {
+	font-size: 11px;
+	padding: 40px 20px;
+}
+.mespopulaires {
+	display: flex;
+	justify-content: center;
+
+	width: 100%;
+	padding: 10px;
+}
+
+.img2 {
+	object-fit: cover;
+	width: 110px;
+	height: 130px;
+	border-radius: 25px 0 0 25px;
+	border: 5px white solid;
+	border-right: none;
+}
+
+#lespluspopulaires {
+	display: flex;
+	flex-direction: column;
+	background-color: #f2f2f2;
+	border-radius: 25px;
+	width: 27%;
+	padding: 12px;
+}
+.mespopulaires:hover {
+	transform: scale(0.9);
+}
+.les-texts2 {
+	background-color: white;
+	border-radius: 0 25px 25px 0;
+	width: 175px;
+	height: 130px;
+	margin-left: -5px;
+	font-size: 12px;
+	padding: 20px;
+	line-height: 1.5;
+}
+#lespopu {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 15px;
+}
+
+.les2 {
+	display: flex;
+	gap: 15px;
+
+	justify-content: center;
+}
+.div-dernier {
+	display: flex;
+}
+.div-populaire {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 15px;
+}
+
+/*activités à marseilles*/
+
+.marseille {
+	font-size: 11px;
+	padding-left: 35px;
+}
+
+.lesphotos {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	flex-grow: 1;
+	flex-basis: 100%;
+	justify-content: center;
+}
+.imag1 {
+	object-fit: cover;
+
+	height: 427px;
+	border-radius: 25px 25px 0 0;
+}
+
+.image1 {
+	text-align: left;
+
+	border-radius: 0 0 25px 25px;
+	box-shadow: 1px 1px 10px rgb(208, 205, 205);
+	padding: 10px;
+	margin-top: -4px;
+}
+.figure2 {
+	display: flex;
+	flex-flow: column;
+	margin: 15px;
+	flex-basis: 20%;
+}
+
+.photoactivite2 {
+	object-fit: cover;
+	width: 280px;
+	height: 203px;
+	border-radius: 25px 25px 0 0;
+}
+.photoactivite3 {
+	object-fit: cover;
+	width: 280px;
+	height: 150px;
+	border-radius: 25px 25px 0 0;
+}
+
+.img3 {
+	object-fit: cover;
+	width: 280px;
+	height: 177px;
+	border-radius: 25px 25px 0 0;
+}
+
+.lespetites {
+	display: flex;
+	flex-flow: column;
+}
+.figure2:hover {
+	transform: scale(0.9);
+}
+/*footer*/
+
+#footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f2f2f2;
+	padding-right: 350px;
+	line-height: 2;
+}
+#footer ul {
+	list-style-type: none;
+	margin-top: 40px;
+}
+#footer a {
+	color: black;
+}
+.titre-footer {
+	font-weight: bold;
+}

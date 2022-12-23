@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Oh my Food</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" media="screen and (max-width: 767px)" href="mobile_projet3.css" />
+	</head>
+	<body>
+		<!--header-->
+		<header>
+			<a href="index.html" class="">
+				<img src="images/logo/ohmyfood.png" alt="logo du restaurant" />
+			</a>
+			<nav>
+				<label class="recherchelabel" for="recherche">
+					<i class="fa-solid fa-location-dot"></i>
+				</label>
+				<input class="rechercheinput" id="recherche" type="search" value="Marseille, France" />
+			</nav>
+		</header>
+	</body>
+</html>

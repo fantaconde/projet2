@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+.monlogo {
+	display: flex;
+	justify-content: center;
+	font-size: 55px;
+}
+
+.les-cartes {
+	object-fit: cover;
+	width: 20px;
+	height: 30px;
+}
